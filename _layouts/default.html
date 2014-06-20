@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>minlang</title>
+    <link rel="stylesheet" href="/css/default.css">
+  </head>
+  <body>
+    {% include header.html %}
+
+    <section>
+      <noscript>
+          <p>Minlang requires JavaScript to be enabled. If your browser doesn't support JavaScript, you can always <a href="/downloads">download raw wordlists</a>.</p>
+      </noscript>
+
+      {{ content }}
+    </section>
+
+    {% include footer.html %}
+  </body>
+</html>
