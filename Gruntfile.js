@@ -69,7 +69,7 @@ module.exports = function(grunt) {
             },
             build: {
                 files: {
-                    "js/default.min.js": ['js/default.js']
+                    'js/default.min.js': ['js/default.js']
                 }
             }
         },
